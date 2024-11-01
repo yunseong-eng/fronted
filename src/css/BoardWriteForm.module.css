@@ -1,0 +1,67 @@
+.BoardWriteForm {
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BoardWriteForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.BoardWriteForm table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.BoardWriteForm table th, 
+.BoardWriteForm table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.BoardWriteForm table th {
+    width: 100px;
+    font-weight: bold;
+}
+
+.BoardWriteForm table td input[type="text"],
+.BoardWriteForm table td textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.BoardWriteForm .errorDiv {
+    color: red;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+}
+
+/* 버튼을 감싸고 있는 셀을 가운데 정렬 */
+.BoardWriteForm table td[colspan="2"] {
+    text-align: center;
+}
+
+.BoardWriteForm button {
+    width: 80px;
+    padding: 8px 0;
+    margin: 0 10px;
+    border: 1px solid #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.BoardWriteForm button:hover {
+    background-color: #f5f5f5;
+}
